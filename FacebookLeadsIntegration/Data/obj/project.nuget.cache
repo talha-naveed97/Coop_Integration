@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UKEvfamN0lGV+E8wzChtu3M5fibwE+lgvEoUOrpuUXk9fEm/f3TkD/s4AryL1VYhybYMhUC/npqs2T/Q4Yg+rQ==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cn5076\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

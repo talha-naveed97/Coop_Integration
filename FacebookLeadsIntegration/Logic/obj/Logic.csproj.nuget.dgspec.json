@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Logic\\Logic.csproj": {}
+  },
+  "projects": {
+    "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\cn5076\\.nuget\\packages\\",
+        "outputPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cn5076\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/BDO-Regnskap/_packaging/BDOIntegrasjoner/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Models\\Models.csproj": {
+                "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\cn5076\\.nuget\\packages\\",
+        "outputPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cn5076\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/BDO-Regnskap/_packaging/BDOIntegrasjoner/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Logic\\Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Logic\\Logic.csproj",
+        "projectName": "Logic",
+        "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Logic\\Logic.csproj",
+        "packagesPath": "C:\\Users\\cn5076\\.nuget\\packages\\",
+        "outputPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cn5076\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/BDO-Regnskap/_packaging/BDOIntegrasjoner/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\API.csproj": {
+                "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\cn5076\\.nuget\\packages\\",
+        "outputPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cn5076\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/BDO-Regnskap/_packaging/BDOIntegrasjoner/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj": {
+                "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
