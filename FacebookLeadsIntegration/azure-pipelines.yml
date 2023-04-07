@@ -1,0 +1,49 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  buildConfiguration: 'Release'
+  buildNumber: '1.0.$(Build.BuildNumber)'
+  azureSubscription: 'subscription'
+  dotNetFramework: 'net6.0'
+  dotNetVersion: '6.0.x'
+  targetRuntime: 'linux-x64'
+
+steps:
+
+# Build the app
+- task: DotNetCoreCLI@2
+  displayName: Build function application
+  inputs:
+    command: 'build'
+    projects: 'FunctionApp/*.csproj'
+    arguments: --output $(System.DefaultWorkingDirectory)/publish_output --configuration $(buildConfigurationFunctionApp) 
+
+# Run unit tests
+- task: DotNetCoreCLI@2
+  displayName: 'Running unit tests'
+  inputs:
+    command: test
+    projects: 'Tests/*.csproj'
+    arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
+    publishTestResults: true
+    nobuild: true
+
+# Create artifact
+- task: DotNetCoreCLI@2
+  displayName: Create function application artifact
+  inputs:
+    command: publish
+    projects: 'FunctionApp/*.csproj'
+    arguments: '--configuration $(buildConfigurationFunctionApp) --framework $(dotNetFramework) --output $(Build.ArtifactStagingDirectory)/FunctionApp'
+    zipAfterPublish: True  
+
+# Publish artifact    
+- task: PublishBuildArtifacts@1
+  displayName: Publish function application artifact
+  inputs:
+    PathtoPublish: "$(Build.ArtifactStagingDirectory)/FunctionApp"
+    ArtifactName: "function"  
