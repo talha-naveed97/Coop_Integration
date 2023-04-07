@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7OgMKV7zV8DRJ8SfN5dcCg5WZvyRdQsMPlN09IcRrhXxN/Hkoe0WKaMh6KTpeCQCmfMTMUZI7P8ZtJbOMFa3sw==",
+  "dgSpecHash": "DLZRox/SSxgIp9k4Dki/gC1vMrL5+uaxe0mQX+6LG9Nv2M1jx4BxG46Do8v0HVXNZEFXvdxsNxghCDr00DePLA==",
   "success": true,
-  "projectFilePath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\API.csproj",
+  "projectFilePath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cn5076\\.nuget\\packages\\azure.core\\1.30.0\\azure.core.1.30.0.nupkg.sha512",
     "C:\\Users\\cn5076\\.nuget\\packages\\azure.identity\\1.8.2\\azure.identity.1.8.2.nupkg.sha512",

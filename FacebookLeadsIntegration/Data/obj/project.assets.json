@@ -103,11 +103,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj",
+      "projectPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\cn5076\\.nuget\\packages\\",
-      "outputPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\obj\\",
+      "outputPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cn5076\\AppData\\Roaming\\NuGet\\NuGet.Config",

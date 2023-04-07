@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Logic\\Logic.csproj": {}
+    "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Logic\\Logic.csproj": {}
   },
   "projects": {
-    "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\API.csproj": {
+    "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\API.csproj",
+        "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\API.csproj",
+        "projectPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\API\\API.csproj",
         "packagesPath": "C:\\Users\\cn5076\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\obj\\",
+        "outputPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cn5076\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Models\\Models.csproj": {
-                "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Models\\Models.csproj"
+              "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Models\\Models.csproj": {
+                "projectPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Models\\Models.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj": {
+    "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj",
+        "projectPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\cn5076\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\obj\\",
+        "outputPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cn5076\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Logic\\Logic.csproj": {
+    "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Logic\\Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Logic\\Logic.csproj",
+        "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Logic\\Logic.csproj",
         "projectName": "Logic",
-        "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Logic\\Logic.csproj",
+        "projectPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Logic\\Logic.csproj",
         "packagesPath": "C:\\Users\\cn5076\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Logic\\obj\\",
+        "outputPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Logic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cn5076\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -173,8 +173,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\API.csproj": {
-                "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\API\\API.csproj"
+              "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\API\\API.csproj": {
+                "projectPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\API\\API.csproj"
               }
             }
           }
@@ -214,14 +214,14 @@
         }
       }
     },
-    "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Models\\Models.csproj": {
+    "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Models\\Models.csproj",
+        "projectPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\cn5076\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Models\\obj\\",
+        "outputPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cn5076\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -239,8 +239,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj": {
-                "projectPath": "C:\\Program Files\\Dev\\Personal\\quizit\\Server\\FacebookLeadsIntegration\\Data\\Data.csproj"
+              "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Data\\Data.csproj": {
+                "projectPath": "C:\\Program Files\\Dev\\Personal\\Coop\\FacebookLeadsIntegration\\Data\\Data.csproj"
               }
             }
           }
