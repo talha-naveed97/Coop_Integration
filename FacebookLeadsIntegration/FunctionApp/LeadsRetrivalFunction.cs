@@ -1,16 +1,25 @@
-using System;
+using Logic.LeadsAd;
 using Microsoft.Azure.WebJobs;
-using Microsoft.Azure.WebJobs.Host;
 using Microsoft.Extensions.Logging;
+using System;
 
 namespace FunctionApp
 {
-    public class Function1
+    public class LeadsRetrivalFunction
     {
+        private readonly ILeadsAdService _leadsAdService;
+
+        public LeadsRetrivalFunction(ILeadsAdService leadsAdService)
+        {
+            _leadsAdService = leadsAdService ?? throw new ArgumentNullException(nameof(leadsAdService));
+        }
+
         [FunctionName("Function1")]
         public void Run([TimerTrigger("0 */5 * * * *")]TimerInfo myTimer, ILogger log)
         {
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
+
+            _leadsAdService.ProcessLeads();
         }
     }
 }

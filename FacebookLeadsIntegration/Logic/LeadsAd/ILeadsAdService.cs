@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Logic.LeadsAd
+﻿namespace Logic.LeadsAd
 {
-    internal interface ILeadsAdService
+    public interface ILeadsAdService
     {
+        void ProcessLeads();
     }
 }

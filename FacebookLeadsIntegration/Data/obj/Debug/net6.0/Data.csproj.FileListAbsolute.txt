@@ -1,0 +1,12 @@
+C:\Program Files\Dev\Personal\quizit\Server\FacebookLeadsIntegration\Data\bin\Debug\net6.0\Data.deps.json
+C:\Program Files\Dev\Personal\quizit\Server\FacebookLeadsIntegration\Data\bin\Debug\net6.0\Data.dll
+C:\Program Files\Dev\Personal\quizit\Server\FacebookLeadsIntegration\Data\bin\Debug\net6.0\Data.pdb
+C:\Program Files\Dev\Personal\quizit\Server\FacebookLeadsIntegration\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\Program Files\Dev\Personal\quizit\Server\FacebookLeadsIntegration\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files\Dev\Personal\quizit\Server\FacebookLeadsIntegration\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\Program Files\Dev\Personal\quizit\Server\FacebookLeadsIntegration\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\Program Files\Dev\Personal\quizit\Server\FacebookLeadsIntegration\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\Program Files\Dev\Personal\quizit\Server\FacebookLeadsIntegration\Data\obj\Debug\net6.0\Data.dll
+C:\Program Files\Dev\Personal\quizit\Server\FacebookLeadsIntegration\Data\obj\Debug\net6.0\refint\Data.dll
+C:\Program Files\Dev\Personal\quizit\Server\FacebookLeadsIntegration\Data\obj\Debug\net6.0\Data.pdb
+C:\Program Files\Dev\Personal\quizit\Server\FacebookLeadsIntegration\Data\obj\Debug\net6.0\ref\Data.dll

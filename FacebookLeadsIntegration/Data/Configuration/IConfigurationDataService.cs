@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Data.Configuration
 {
-    internal interface IConfigurationDataService
+    public interface IConfigurationDataService
     {
+        
     }
 }

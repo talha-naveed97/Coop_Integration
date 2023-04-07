@@ -15,6 +15,7 @@ namespace Models
         public DateTime LastExecution { get; set; }
         public string Schedule { get; set; } // Probably a cron schedule that will be evaluated on runtime
         public bool Enabled { get; set; }
+        public List<string> RecipientEmails { get; set; }
     }
 
 }

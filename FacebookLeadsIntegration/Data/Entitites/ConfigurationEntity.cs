@@ -9,6 +9,7 @@ namespace Data.Entities
         public DateTime LastExecution { get; set; }
         public string Schedule { get; set; }
         public bool Enabled { get; set; }
+        public List<string> RecipientEmails { get; set; }
     }
 
 }
